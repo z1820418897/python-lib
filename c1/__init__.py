@@ -72,6 +72,15 @@ print(b"\xe4\xb8\xad\xe6\x96\x87".decode("utf8"))  # 在转回来
 
 
 # 循环语法
-# ==循环字符串
+# ==for循环字符串
 for char in "你好世界":
     print("当前字符："+char)
+
+# ==while循环
+num = 1
+while num < 10:
+    print(num)
+    num += 1
+
+#
+
